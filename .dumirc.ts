@@ -11,4 +11,8 @@ export default defineConfig({
       { type: 'components/bar', dir: 'bar/src' },
     ],
   },
+  alias: {
+    foo: require.resolve('./foo/src'),
+    bar: require.resolve('./bar/src'),
+  },
 });

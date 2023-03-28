@@ -5,4 +5,10 @@ export default defineConfig({
   themeConfig: {
     name: 'dumi-issue-1332-report',
   },
+  resolve: {
+    atomDirs: [
+      { type: 'components/foo', dir: 'foo/src' },
+      { type: 'components/bar', dir: 'bar/src' },
+    ],
+  },
 });

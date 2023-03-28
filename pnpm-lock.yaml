@@ -1,36 +1,44 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@commitlint/cli': ^17.1.2
-  '@commitlint/config-conventional': ^17.1.0
-  '@umijs/lint': ^4.0.0
-  dumi: ^2.1.17
-  eslint: ^8.23.0
-  father: ^4.1.0
-  husky: ^8.0.1
-  lint-staged: ^13.0.3
-  prettier: ^2.7.1
-  prettier-plugin-organize-imports: ^3.0.0
-  prettier-plugin-packagejson: ^2.2.18
-  react: ^18.0.0
-  react-dom: ^18.0.0
-  stylelint: ^14.9.1
+importers:
 
-devDependencies:
-  '@commitlint/cli': 17.5.0
-  '@commitlint/config-conventional': 17.4.4
-  '@umijs/lint': 4.0.63_n72c2c7pzz6gf5ev6yoxuegwaq
-  dumi: 2.1.17_jwgepx6z2qyviprsulqoeu352a
-  eslint: 8.36.0
-  father: 4.1.7
-  husky: 8.0.3
-  lint-staged: 13.2.0
-  prettier: 2.8.7
-  prettier-plugin-organize-imports: 3.2.2_prettier@2.8.7
-  prettier-plugin-packagejson: 2.4.3_prettier@2.8.7
-  react: 18.2.0
-  react-dom: 18.2.0_react@18.2.0
-  stylelint: 14.16.1
+  .:
+    specifiers:
+      '@commitlint/cli': ^17.1.2
+      '@commitlint/config-conventional': ^17.1.0
+      '@umijs/lint': ^4.0.0
+      dumi: ^2.1.17
+      eslint: ^8.23.0
+      father: ^4.1.0
+      husky: ^8.0.1
+      lint-staged: ^13.0.3
+      prettier: ^2.7.1
+      prettier-plugin-organize-imports: ^3.0.0
+      prettier-plugin-packagejson: ^2.2.18
+      react: ^18.0.0
+      react-dom: ^18.0.0
+      stylelint: ^14.9.1
+    devDependencies:
+      '@commitlint/cli': 17.5.0
+      '@commitlint/config-conventional': 17.4.4
+      '@umijs/lint': 4.0.63_n72c2c7pzz6gf5ev6yoxuegwaq
+      dumi: 2.1.17_jwgepx6z2qyviprsulqoeu352a
+      eslint: 8.36.0
+      father: 4.1.7
+      husky: 8.0.3
+      lint-staged: 13.2.0
+      prettier: 2.8.7
+      prettier-plugin-organize-imports: 3.2.2_prettier@2.8.7
+      prettier-plugin-packagejson: 2.4.3_prettier@2.8.7
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      stylelint: 14.16.1
+
+  bar:
+    specifiers: {}
+
+  foo:
+    specifiers: {}
 
 packages:
 
